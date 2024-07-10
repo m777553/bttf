@@ -1,0 +1,19 @@
+<div class="input__wrap">
+  <div class="input-group green">
+    <input class="input month" type="text" maxlength="3"  value="oct">   <input class="input day" type="text"   maxlength="2" value="26">   <input class="input year" type="text"  maxlength="4"  value="1985">   <input class="input hours" type="text"  maxlength="2" value="01">:<input class="input minutes" type="text" maxlength="2" value="21">
+  </div>
+  <p class="description">НАСТОЯЩЕЕ ВРЕМЯ</p>
+  <div class="input-group red">
+    <input class="input month" type="text" maxlength="3"  >   <input class="input day" type="text"   maxlength="2" >   <input class="input year" type="text"  maxlength="4"  >   <input class="input hours" type="text"  maxlength="2">:<input class="input minutes" type="text" maxlength="2" >
+  </div>
+  <p class="description">ВРЕМЯ НАЗНАЧЕНИЯ</p>
+
+  <div class="input-group yellow">
+    <input class="input month" type="text" maxlength="3"  value="oct">
+    <input class="input day" type="text"   maxlength="2" value="26">
+    <input class="input year" type="text"  maxlength="4"  value="1985">
+    <input class="input hours" type="text"  maxlength="2" value="01">:<input class="input minutes" type="text" maxlength="2" value="20">
+  </div>
+  <p class="description">ВРЕМЯ ПОСЛЕДНЕГО ОТЛЁТА</p>
+  <button (click)="checkAndRedirect()">GO</button>
+</div>
