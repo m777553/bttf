@@ -23,11 +23,11 @@ export class FirstPageComponent implements OnInit {
   }
 
   checkAndRedirect() {
-    const month = (<HTMLInputElement>document.querySelector('.input-group.red .input.month')).value;
-    const day = (<HTMLInputElement>document.querySelector('.input-group.red .input.day')).value;
-    const year = (<HTMLInputElement>document.querySelector('.input-group.red .input.year')).value;
-    const hours = (<HTMLInputElement>document.querySelector('.input-group.red .input.hours')).value;
-    const minutes = (<HTMLInputElement>document.querySelector('.input-group.red .input.minutes')).value;
+    const month = (<HTMLInputElement>document.querySelector('.input-group.red .input.month')).value.toLowerCase();
+    const day = (<HTMLInputElement>document.querySelector('.input-group.red .input.day')).value.toLowerCase();
+    const year = (<HTMLInputElement>document.querySelector('.input-group.red .input.year')).value.toLowerCase();
+    const hours = (<HTMLInputElement>document.querySelector('.input-group.red .input.hours')).value.toLowerCase();
+    const minutes = (<HTMLInputElement>document.querySelector('.input-group.red .input.minutes')).value.toLowerCase();
     const button = <HTMLButtonElement>document.querySelector('button');
 
 
