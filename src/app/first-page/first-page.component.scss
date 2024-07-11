@@ -10,7 +10,7 @@
 
 
 .input.month {
-  min-width: 6rem;
+  min-width: 22vw;
 }
 
 .input.day {
@@ -18,20 +18,23 @@
 }
 
 .input.year {
-  min-width: 7.5rem;
+  min-width: 27vw;
 }
 
 .input.hours {
-  min-width: 3.5rem;
+  min-width: 15vw;
 }
 
 .input.minutes {
-  min-width: 4rem;
+  min-width: 15vw;
 }
 
 .description {
   font-family: "Digital", sans-serif;
-  font-size: 1rem;
+  font-size: 5vw;
+  align-self: center;
+  margin-bottom: 10vw;
+  color: white;
 }
 
 .input-group.green .input {
@@ -51,13 +54,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  background-color: rgba(0,0,0,0.8);
-}
-
-.description {
-  align-self: center;
-  margin-bottom: 2rem;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -79,10 +76,47 @@ button {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
   align-self: center;
   font-family: inherit;
-  font-size: 4rem;
+  font-size: 14vw;
 }
 
 button:active {
   transform: scale(0.95);
   box-shadow: none;
+}
+
+button.highlight {
+  box-shadow: 0px 16px 30px darkred;
+  color: darkred;
+}
+
+.info {
+  font-family: 'blush', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0);
+  color: white;
+  z-index: 1000;
+  text-align: center;
+}
+
+.message {
+  font-family: 'blush', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0);
+  color: white;
+  z-index: 1000;
+  text-align: center;
 }

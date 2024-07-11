@@ -1,3 +1,6 @@
+<div (click)="showInfo=false" class="info" *ngIf="showInfo">Первое  путешествие во времени - историческое событие! Надо выбрать дату!</div>
+<div class="message" *ngIf="message">{{ message }}</div>
+
 <div class="input__wrap">
   <div class="input-group green">
     <input class="input month" type="text" maxlength="3"  value="oct">   <input class="input day" type="text"   maxlength="2" value="26">   <input class="input year" type="text"  maxlength="4"  value="1985">   <input class="input hours" type="text"  maxlength="2" value="01">:<input class="input minutes" type="text" maxlength="2" value="21">

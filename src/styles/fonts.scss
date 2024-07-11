@@ -1,13 +1,14 @@
 @font-face {
-    font-family: 'Digital';
-    src: url('../assets/fonts/DS-Digital.woff') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Digital';
+  src: url('../assets/fonts/DS-Digital.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'blush';
-    src: url('../assets/fonts/ofont.ru_Spring blush.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'blush';
+  src: url('../assets/fonts/ofont.ru_Spring blush.ttf') format('ttf'),
+  url("../assets/fonts/Springblush-Solid.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
